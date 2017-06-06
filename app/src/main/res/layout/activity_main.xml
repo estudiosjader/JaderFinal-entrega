@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="com.example.sistemas.jaderfinal.MainActivity"
+    android:weightSum="1">
+
+    <android.support.v7.widget.RecyclerView
+        android:id='@+id/recyclerView'
+        android:layout_width="378dp"
+        android:layout_height="320dp"
+        android:layout_weight="0.64"
+        android:background="@drawable/po"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.64"
+        android:clickable="true"
+        android:onClick="acercade"
+        android:text="Desarrollado por"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
